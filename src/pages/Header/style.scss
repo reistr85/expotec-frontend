@@ -1,0 +1,45 @@
+.navbar{
+    padding: 20px 100px;
+ 
+}
+.nav-link{
+    color:grey;
+    font-weight: bold;
+}
+.active{
+    color:black
+}
+.nav-link:hover{
+    color:black
+}
+
+#eventos,#news-letter{
+    background-color: #2A6395;
+}
+.card-title{
+    color:#3b3b3b;
+    font-weight: bold;
+}
+.row{
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 200px;
+    padding-top: 150px;
+    ol{
+        li{
+            list-style: none;
+            display: inline;
+        }
+    }
+}
+
+.icones-sociais, .icones-sociais:hover{
+    list-style: none;
+    display: inline;
+    color: grey;
+    font-size: 30px;
+    left: -100px;
+
+}
