@@ -12,6 +12,7 @@ import MainSection from '../Main/MainSection';
 import CardsSection from '../Cards/CardsSection';
 import EventoSection from '../Eventos/EventoSection';
 
+
 export default {
      components: {
          HeaderSite,

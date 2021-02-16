@@ -2,7 +2,8 @@
       <section class=" session" id="eventos">
           <div class="container">
           <div class="row text-center">
-                <h2 class=" col-md-12">Lorem ipsum</h2>
+                <h2 class=" col-md-12">Eventos</h2>
+                <Divisor/>
                 <h5>Veja aqui os nossos próximos eventos</h5>
           </div><br><br>
           <div class="row">
@@ -89,9 +90,13 @@
 </template>
 
 <script>
+import Divisor from '../../components/Divisor';
 
 export default {
-
+    
+    components:{
+        Divisor
+    }
     
 }
 </script>

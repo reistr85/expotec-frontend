@@ -1,9 +1,18 @@
 <template>
       <section class="session" id="cards">
     <div class="container">
-      <div class="row">
-          <h2 class="text-center col-md-12">Sobre</h2>
+      <div class="row text-center">
+          <h2 class=" col-md-12">Sobre</h2>
+          <Divisor/>
       </div><br>
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <p>
+                  A Exposição Científica, Tecnológica e Cultural do Campus Natal-Central do Instituto Federal do RN - EXPOTEC - é um evento anual realizado no âmbito dos campi tendo como objetivo a submissão e divulgação de projetos científicos, oferta de minicursos, oficinas e palestras de caráter educacional, estreitar parcerias público-privadas, bem como a promoção de atividades artístico-culturais. O evento é promovido pela Pró-Reitoria de Extensão, assessorada pele Divisão de Extensão do campus.
+              </p>
+          </div>
+          
+      </div><br><br>
       <div class="row">
           <div class="col-md-4">
               <div class="card">
@@ -71,7 +80,13 @@
   </section>
 </template>
 <script>
+import Divisor from '../../components/Divisor';
+
 export default {
+
+    components:{
+        Divisor
+    }
     
 }
 </script>

@@ -1,0 +1,8 @@
+// importando estilo principal
+@import '../pages/Site/main.scss';
+
+hr{
+    background-color: $roxo-color;
+    height: 8px;
+    width: 3%;
+}
