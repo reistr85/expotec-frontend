@@ -9,7 +9,7 @@
           <div class="col-md-4">
                 <div class="card">
                 <img
-                    src="../assets/Imagem1.jpg"
+                    src="../../assets/Imagem1.jpg"
                     class="card-img-top"
                     alt="..."
                 />
@@ -28,7 +28,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../assets/Imagem1.jpg"
+                            src="../../assets/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -37,7 +37,7 @@
                  <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../assets/Imagem1.jpg"
+                            src="../../assets/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -46,7 +46,7 @@
                  <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../assets/Imagem1.jpg"
+                            src="../../assets/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -57,7 +57,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../assets/Imagem1.jpg"
+                            src="../../assets/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -65,7 +65,7 @@
                 </div><div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../assets/Imagem1.jpg"
+                            src="../../assets/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -73,7 +73,7 @@
                 </div><div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../assets/Imagem1.jpg"
+                            src="../../assets/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -95,6 +95,4 @@ export default {
     
 }
 </script>
-<style scoped>
-
-</style>
+<style lang="scss" src="./style.scss" scoped>

@@ -1,0 +1,12 @@
+// importando estilo principal
+@import '../Site/main.scss';
+
+
+.card-body{
+    border-radius: 10px;
+}
+#card-central{
+    color:white;
+    background-color:$roxo-color;
+}
+

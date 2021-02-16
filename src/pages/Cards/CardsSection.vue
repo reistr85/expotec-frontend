@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
+                            <img src="../../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
                         </div>
                         <div class="col-md-8"><br>
                             <h6>Lorem ipsum</h6>
@@ -29,7 +29,7 @@
                 <div class="card-body" id="card-central">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
+                            <img src="../../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
                         </div>
                         <div class="col-md-8"><br>
                             <h6>Lorem ipsum</h6>
@@ -49,7 +49,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
+                            <img src="../../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
                         </div>
                         <div class="col-md-8"><br>
                             <h6>Lorem ipsum</h6>
@@ -76,15 +76,4 @@ export default {
 }
 </script>
 
-<style  scoped>
-.card-body{
-    border-radius: 10px;
-}
-#card-central{
-    color:white;
-    background-color: #00c689;
-}
-p{
-    font-size:18px;
-}
-</style>
+<style lang="scss" src="./style.scss" scoped>

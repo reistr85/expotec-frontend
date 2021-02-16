@@ -1,5 +1,5 @@
 <template>
-      <section id="main">
+      <div id="main">
 <!-- Carousel wrapper -->
 <div
   id="carouselDarkVariant"
@@ -18,7 +18,7 @@
     <!-- Single item -->
     <div class="carousel-item active">
       <img
-        src="../assets/Imagem1.jpg"
+        src="../../assets/Imagem1.jpg"
         class="d-block w-100"
         alt="..."
       />
@@ -56,25 +56,11 @@
     <span class="visually-hidden">Next</span>
   </a>
 <!-- Carousel wrapper -->
-  </section>
+  </div>
 </template>
 <script>
 export default {
     
 }
 </script>
-<style scoped>
-.carousel-caption{
-    padding-bottom:160px;
-}
-.carousel-caption h1{
-    font-size: 50px;
-    font-weight: bold;
-    color:#FFCC4B;
-}
-#texto-secundario{
-    font-weight: bold;
-    color:white;
-}
-
-</style>
+<style lang="scss" src="./style.scss" scoped>

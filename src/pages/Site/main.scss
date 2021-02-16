@@ -2,3 +2,25 @@ $roxo-color:#2A327D;
 $verde-color:#00C689;
 $amarelo-color:#FEA31B;
 $rosa-color:#FB6158;
+
+body{
+    margin:0px;
+    padding: 0px;
+    
+    section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    p{
+        font-size:18px;
+    }
+}
+
+.btn-primary{
+    background-color:$roxo-color;
+}
+.btn-primary:hover{
+    background-color:$roxo-color;
+    opacity: 0.9;
+}

@@ -8,9 +8,9 @@
 </template>
 <script>
 import HeaderSite from '../Header/HeaderSite';
-import MainSection from '../../components/MainSection';
-import CardsSection from '../../components/CardsSection';
-import EventoSection from '../../components/EventoSection';
+import MainSection from '../Main/MainSection';
+import CardsSection from '../Cards/CardsSection';
+import EventoSection from '../Eventos/EventoSection';
 
 export default {
      components: {
