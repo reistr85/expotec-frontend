@@ -7,6 +7,7 @@
     <Certificados/>
     <Noticias/>
     <Parceiros/>
+    <Contato/>
     
 
 </div>      
@@ -19,6 +20,7 @@ import EventoSection from '../Eventos/EventoSection';
 import Certificados from '../Certificados/Certificados';
 import Noticias from '../Noticias/Noticias';
 import Parceiros from '../Parceiros/Parceiros';
+import Contato from '../Contato/Contato';
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
          EventoSection,
          Certificados,
          Noticias,
-         Parceiros
+         Parceiros,
+         Contato
      }
 }
 </script>
