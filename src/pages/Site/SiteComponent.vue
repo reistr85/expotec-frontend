@@ -6,6 +6,7 @@
     <EventoSection/>
     <Certificados/>
     <Noticias/>
+    <Parceiros/>
     
 
 </div>      
@@ -17,6 +18,7 @@ import CardsSection from '../Cards/CardsSection';
 import EventoSection from '../Eventos/EventoSection';
 import Certificados from '../Certificados/Certificados';
 import Noticias from '../Noticias/Noticias';
+import Parceiros from '../Parceiros/Parceiros';
 
 
 export default {
@@ -26,7 +28,8 @@ export default {
          CardsSection,
          EventoSection,
          Certificados,
-         Noticias
+         Noticias,
+         Parceiros
      }
 }
 </script>
