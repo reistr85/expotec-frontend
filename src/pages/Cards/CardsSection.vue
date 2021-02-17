@@ -1,5 +1,5 @@
 <template>
-      <section class="session" id="cards">
+      <section id="cards">
     <div class="container">
       <div class="row text-center">
           <h2 class=" col-md-12">Sobre</h2>

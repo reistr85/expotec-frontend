@@ -1,5 +1,5 @@
 <template>
-    <section id="eventos">
+    <section>
           <div class="container">
           <div class="row text-center">
                 <h2 class=" col-md-12">Certificados</h2>
@@ -12,7 +12,10 @@
                     </p><br>
                     <button type="button" class="btn btn-primary">Acesse aqui</button>
                 </div>
-                <img src="../../assets/certificado.svg" alt="" srcset="" class="col-md-6 img-fluid">
+                <div class="col-md-6">
+                    <img src="../../assets/certificado.svg" alt="" srcset="" class="col-md-12 img-fluid">
+                </div>
+                
             </div>
           </div>
 

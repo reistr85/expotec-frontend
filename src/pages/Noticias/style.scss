@@ -1,0 +1,10 @@
+// importando estilo principal
+@import '../Site/main.scss';
+
+.barra-amarela{
+    background-color: $amarelo-color;
+
+    .carousel-inner{
+        padding: 80px 30px;
+    }
+}

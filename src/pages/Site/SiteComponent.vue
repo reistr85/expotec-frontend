@@ -5,6 +5,9 @@
     <CardsSection/>
     <EventoSection/>
     <Certificados/>
+    <Noticias/>
+    
+
 </div>      
 </template>
 <script>
@@ -13,6 +16,7 @@ import MainSection from '../Main/MainSection';
 import CardsSection from '../Cards/CardsSection';
 import EventoSection from '../Eventos/EventoSection';
 import Certificados from '../Certificados/Certificados';
+import Noticias from '../Noticias/Noticias';
 
 
 export default {
@@ -21,7 +25,8 @@ export default {
          MainSection,
          CardsSection,
          EventoSection,
-         Certificados
+         Certificados,
+         Noticias
      }
 }
 </script>
