@@ -4,7 +4,7 @@
           <div class="row text-center">
                 <h2 class=" col-md-12">Eventos</h2>
                 <Divisor/>
-                <h5>Veja aqui os nossos próximos eventos</h5>
+                <p>Está interessado em participar de nossos eventos agora, saber o que vai acontecer em breve ou o que rolou em edições anteriores? Saiba tudo isso e muito mais aqui! </p>
           </div><br><br>
           <div class="row">
           <div class="col-md-4">
