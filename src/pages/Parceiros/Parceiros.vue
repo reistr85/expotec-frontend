@@ -56,7 +56,12 @@
     </section>
 </template>
 <script>
+import Divisor from '../../components/Divisor/Divisor';
 export default {
+
+    components:{
+        Divisor
+    }
     
 }
 </script>
