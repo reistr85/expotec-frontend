@@ -62,7 +62,7 @@
           
           <div class="col-md-1">
               <span id="seta-roxa">
-                  <i class="fa fa-arrow-up"></i>
+                  <i class="fas fa-angle-up"></i>
               </span>
           </div>
       </div>

@@ -5,7 +5,7 @@
                 <h2 class=" col-md-12">Contato</h2>
                 <Divisor/>
           </div>
-        <div class="row">
+        <div class="row blocos">
             <div class="box">
                 <div class="container">
                 <h2 class="text-center text-white">
@@ -29,14 +29,14 @@ Cadastre seu e-mail e fique ligado nas notícias.
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row blocos">
             <div class="col-md-6">
                 <h6><i class="fas fa-map-marker-alt"></i> Endereço</h6>
                 <p>Avenida Senador Salgado Filho, 1559, Tirol. Natal -
                      RN I CEP 59015-000. IFRN | Natal - Central</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row blocos">
             <div class="col-md-3">
                 <h6><i class="fas fa-phone"></i> Telefone</h6>
                 <p>(84)  4005 9882 / 9855</p>
