@@ -2,43 +2,50 @@
     
   <!-- Start your project here-->  
   <header class="text-center">
-    <nav class="navbar navbar-expand-lg  ">
- <a class="navbar-brand" href="#">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto text-center">
-            <li class="nav-item active">
-            <a class="navbar-brand" href="#">
-        <img src="../../assets/logo-expotec.svg" alt="" class="img-fluid">
-      </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link " href="#">Eventos
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Instituição</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Notícias</a>
-          </li>
-        </ul> 
-     
-<span class="navbar-text white-text">
-          <button type="button" class="btn btn-light ">Login</button>
-        </span>
-        <span class="navbar-text white-text">
-          <button type="button" class="btn btn-primary ">Register</button>
-        </span>   
-      
-        
-      </div>
-    </nav>
+
+          <nav class="container navbar navbar-expand-lg  ">
+            <div class="container row">
+              <div class="col-md-8">
+                    <a class="navbar-brand" href="#">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      
+                      <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto text-center">
+                            <li class="nav-item active">
+                            <a class="navbar-brand" href="#">
+                        <img src="../../assets/logo-expotec.svg" alt="" class="img-fluid">
+                      </a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link " href="#">Eventos
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Instituição</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Notícias</a>
+                          </li>
+                        </ul> 
+                      </div>
+              </div>
+              <div class="col-md-4">
+                        <span class="navbar-text white-text">
+                      <button type="button" class="btn btn-light ">Entrar</button>
+                      </span>
+                      <span class="navbar-text white-text">
+                                <button type="button" class="btn btn-primary ">Cadastro</button>
+                      </span> 
+              </div>
+            </div>
+               
+         </nav> 
+       
 
   </header>
 </template>
