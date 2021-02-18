@@ -8,6 +8,7 @@
     <Noticias/>
     <Parceiros/>
     <Contato/>
+    <FooterSite/>
     
 
 </div>      
@@ -21,6 +22,7 @@ import Certificados from '../Certificados/Certificados';
 import Noticias from '../Noticias/Noticias';
 import Parceiros from '../Parceiros/Parceiros';
 import Contato from '../Contato/Contato';
+import FooterSite from '../Footer/FooterSite';
 
 
 export default {
@@ -32,7 +34,8 @@ export default {
          Certificados,
          Noticias,
          Parceiros,
-         Contato
+         Contato,
+         FooterSite
      }
 }
 </script>

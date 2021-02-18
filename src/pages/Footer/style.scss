@@ -1,0 +1,30 @@
+// importando estilo principal
+@import '../Site/main.scss';
+
+footer{
+    background-color: white;
+    margin-top: 80px;
+
+    .navbar{
+        padding: 20px 100px;
+     
+    }
+    .nav-link{
+        color:grey;
+        font-weight: bold;
+    }
+    .active{
+        color:black
+    }
+    .nav-link:hover{
+        color:black
+    }
+
+    #seta-roxa{
+        background-color: $roxo-color;
+        color: white;
+        font-weight: bold;
+        border-radius: 4px;
+        padding: 10px;
+    }
+}
