@@ -22,7 +22,7 @@
     </section>
 </template>
 <script>
-import Divisor from '../../components/Divisor';
+import Divisor from '../../components/Divisor/Divisor';
 
 export default {
     

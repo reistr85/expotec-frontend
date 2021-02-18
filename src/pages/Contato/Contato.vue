@@ -51,7 +51,7 @@ Cadastre seu e-mail e fique ligado nas notícias.
     </section>
 </template>
 <script>
-import Divisor from '../../components/Divisor';
+import Divisor from '../../components/Divisor/Divisor';
 
 export default {
     
