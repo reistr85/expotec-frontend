@@ -2,13 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 
-import SiteComponent from './pages/Site/SiteComponent';
+import HomeComponent from './pages/Site/Home/HomeComponent';
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: SiteComponent }
+  { path: '/', component: HomeComponent }
 ]
 
 const router = new VueRouter({

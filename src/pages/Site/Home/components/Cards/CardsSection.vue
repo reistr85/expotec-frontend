@@ -13,6 +13,7 @@
           </div>
           
       </div><br><br>
+
       <div class="row">
           <div class="col-md-4">
               <div class="card">
@@ -83,12 +84,21 @@
 import Divisor from '../../components/Divisor/Divisor';
 
 export default {
-
-    components:{
-        Divisor
-    }
-    
+  components:{
+    Divisor
+  }
 }
 </script>
 
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+@import '../Site/main.scss';
+
+.card-body{
+  border-radius: 10px;
+}
+
+#card-central{
+  color:white;
+  background-color:$roxo-color;
+}
+</style
