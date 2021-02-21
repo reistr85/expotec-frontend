@@ -10,7 +10,7 @@
           <div class="col-md-4">
                 <div class="card">
                 <img
-                    src="../../assets/Imagem1.jpg"
+                    src="@/assets/images/Imagem1.jpg"
                     class="card-img-top"
                     alt="..."
                 />
@@ -29,7 +29,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../../assets/Imagem1.jpg"
+                            src="@/assets/images/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -38,7 +38,7 @@
                  <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../../assets/Imagem1.jpg"
+                            src="@/assets/images/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -47,7 +47,7 @@
                  <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../../assets/Imagem1.jpg"
+                            src="@/assets/images/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -58,7 +58,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../../assets/Imagem1.jpg"
+                            src="@/assets/images/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -66,7 +66,7 @@
                 </div><div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../../assets/Imagem1.jpg"
+                            src="@/assets/images/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -74,7 +74,7 @@
                 </div><div class="col-md-4">
                     <div class="card">
                         <img
-                            src="../../assets/Imagem1.jpg"
+                            src="@/assets/images/Imagem1.jpg"
                             class="card-img-top"
                             alt="..."
                         />
@@ -90,7 +90,7 @@
 </template>
 
 <script>
-import Divisor from '../../components/Divisor/Divisor';
+import Divisor from '@/components/Divisor/Divisor';
 
 export default {
     
@@ -100,4 +100,23 @@ export default {
     
 }
 </script>
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+// importando estilo principal
+@import '../style.scss';
+
+.card{
+
+    .btn-success{
+        background-color:$verde-color;
+    }
+
+    .btn-success:hover{
+        background-color:$verde-color;
+        opacity: 0.6;
+    }
+
+    .card-title{
+        color:$verde-color;
+    }
+}
+</style>

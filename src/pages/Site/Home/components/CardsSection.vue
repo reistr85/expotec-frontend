@@ -20,7 +20,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
+                            <img src="@/assets/images/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
                         </div>
                         <div class="col-md-8"><br>
                             <h6>Lorem ipsum</h6>
@@ -39,7 +39,7 @@
                 <div class="card-body" id="card-central">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
+                            <img src="@/assets/images/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
                         </div>
                         <div class="col-md-8"><br>
                             <h6>Lorem ipsum</h6>
@@ -59,7 +59,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../../assets/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
+                            <img src="@/assets/images/avatar.jpg" alt="" class="img-fluid" style="width:60px;heigth:60px;border-radius:50%">
                         </div>
                         <div class="col-md-8"><br>
                             <h6>Lorem ipsum</h6>
@@ -81,7 +81,7 @@
   </section>
 </template>
 <script>
-import Divisor from '../../components/Divisor/Divisor';
+import Divisor from '@/components/Divisor/Divisor';
 
 export default {
   components:{
@@ -91,7 +91,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../Site/main.scss';
+@import '../style.scss';
 
 .card-body{
   border-radius: 10px;
@@ -101,4 +101,4 @@ export default {
   color:white;
   background-color:$roxo-color;
 }
-</style
+</style>

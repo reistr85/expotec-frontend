@@ -31,7 +31,7 @@
                  
                   <div class="col-md-2">
                         <a class="navbar-brand" href="#">
-                            <img src="../../assets/logo-expotec.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/logo-expotec.svg" alt="" class="img-fluid">
                         </a>
                   </div>
                   <div class="col-md-4">
@@ -75,5 +75,41 @@ export default {
     
 }
 </script>
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+@import '../style.scss';
+
+footer{
+    background-color: white;
+    margin-top: 80px;
+
+    .navbar{
+        padding: 20px 100px;
+     
+    }
+    .nav-link{
+        color:grey;
+        font-weight: bold;
+    }
+    .active{
+        color:black
+    }
+    .nav-link:hover{
+        color:black
+    }
+
+    #seta-roxa{
+        background-color: $roxo-color;
+        color: white;
+        font-weight: bold;
+        border-radius: 4px;
+        width: 40px;
+        height: 40px;
+        padding: 15px 15px 5px 15px;
+
+        i{
+            font-size: 30px;
+        }
+    }
+}
+</style>
 

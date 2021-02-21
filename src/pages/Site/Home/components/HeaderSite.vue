@@ -17,7 +17,7 @@
                         <ul class="navbar-nav mr-auto text-center">
                             <li class="nav-item active">
                             <a class="navbar-brand" href="#">
-                        <img src="../../assets/logo-expotec.svg" alt="" class="img-fluid">
+                        <img src="@/assets/images/logo-expotec.svg" alt="" class="img-fluid">
                       </a>
                           </li>
                           <li class="nav-item ">
@@ -54,5 +54,43 @@ export default {
     
 }
 </script>
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+@import '../style.scss';
+
+header{
+    padding: 20px 0px;
+
+    nav{
+        box-shadow: none;
+
+        .nav-link{
+            color:grey;
+            font-weight: bold;
+            
+            .active{
+                color:black
+            }
+        
+            .nav-link:hover{
+                color:black
+            }
+            
+            #eventos,#news-letter{
+                background-color: #2A6395;
+            }
+            .card-title{
+                color:#3b3b3b;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .col-md-4{
+        margin-top: 8px;
+    }
+
+
+
+}
+</style>
 

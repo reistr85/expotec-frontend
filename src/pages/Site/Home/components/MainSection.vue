@@ -18,7 +18,7 @@
     <!-- Single item -->
     <div class="carousel-item active">
       <img
-        src="../../assets/Imagem1.jpg"
+        src="@/assets/images/Imagem1.jpg"
         class="d-block w-100"
         alt="..."
       />
@@ -63,4 +63,20 @@ export default {
     
 }
 </script>
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+@import '../style.scss';
+
+.carousel-caption{
+    padding-bottom:160px;
+}
+.carousel-caption h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#FFCC4B;
+}
+#texto-secundario{
+    font-weight: bold;
+    color:white;
+}
+
+</style>

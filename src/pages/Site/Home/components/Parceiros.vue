@@ -9,21 +9,21 @@
                     <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="../../assets/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="../../assets/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div> 
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="../../assets/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
@@ -33,21 +33,21 @@
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="../../assets/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="../../assets/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div> 
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="../../assets/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div> </div>              
@@ -56,7 +56,7 @@
     </section>
 </template>
 <script>
-import Divisor from '../../components/Divisor/Divisor';
+import Divisor from '@/components/Divisor/Divisor';
 export default {
 
     components:{
@@ -66,5 +66,7 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+@import '../style.scss';
+</style>
 

@@ -110,7 +110,7 @@
     </section>
 </template>
 <script>
-import Divisor from '../../components/Divisor/Divisor';
+import Divisor from '@/components/Divisor/Divisor';
 
 export default {
     
@@ -120,4 +120,16 @@ export default {
     
 }
 </script>
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+@import '../style.scss';
+
+.barra-amarela{
+    background-color: $amarelo-color;
+    margin-top: 50px;
+
+    .carousel-inner{
+        padding: 80px 30px;
+    }
+}
+
+</style>

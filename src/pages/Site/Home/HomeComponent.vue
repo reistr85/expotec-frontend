@@ -13,15 +13,15 @@
 </template>
 
 <script>
-import HeaderSite from './components/Header/HeaderSite';
-import MainSection from './components/Main/MainSection';
-import CardsSection from './components/Cards/CardsSection';
-import EventoSection from './components/Eventos/EventoSection';
-import Certificados from './components/Certificados/Certificados';
-import Noticias from './components/Noticias/Noticias';
-import Parceiros from './components/Parceiros/Parceiros';
-import Contato from './components/Contato/Contato';
-import FooterSite from './components/Footer/FooterSite';
+import HeaderSite from './components/HeaderSite';
+import MainSection from './components/MainSection';
+import CardsSection from './components/CardsSection';
+import EventoSection from './components/EventoSection';
+import Certificados from './components/Certificados';
+import Noticias from './components/Noticias';
+import Parceiros from './components/Parceiros';
+import Contato from './components/Contato';
+import FooterSite from './components/FooterSite';
 
 
 export default {

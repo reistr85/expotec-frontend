@@ -51,7 +51,7 @@ Cadastre seu e-mail e fique ligado nas notícias.
     </section>
 </template>
 <script>
-import Divisor from '../../components/Divisor/Divisor';
+import Divisor from '@/components/Divisor/Divisor';
 
 export default {
     
@@ -61,4 +61,29 @@ export default {
     
 }
 </script>
-<style lang="scss" src="./style.scss" scoped>
+<style lang="scss" scoped>
+//importando css principal do site
+@import '../style.scss';
+
+.box{
+    background-color: $roxo-color;
+    border-radius: 10px;
+    padding: 35px;
+
+    h2{
+        margin-bottom: 50px;
+    }
+
+    .form-control{
+        border: transparentize($color: #000000, $amount: 0)
+    }
+}
+
+.blocos{
+    margin-top: 30px;
+
+    i{
+        color:$roxo-color;
+    }
+}
+</style>
