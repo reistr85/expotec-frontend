@@ -36,10 +36,10 @@
               </div>
               <div class="col-md-4">
                         <span class="navbar-text white-text">
-                      <button type="button" class="btn btn-light ">Entrar</button>
+                      <button type="button" class="btn btn-light "><router-link to="/login">Entrar</router-link></button>
                       </span>
                       <span class="navbar-text white-text">
-                                <button type="button" class="btn btn-primary ">Cadastro</button>
+                                <button type="button" class="btn btn-primary "><router-link to="/cadastrar">Cadastro</router-link></button>
                       </span> 
               </div>
             </div>
