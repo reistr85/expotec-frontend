@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import HeaderSite from './components/HeaderSite';
+import HeaderSite from '@/components/HeaderSite';
 import MainSection from './components/MainSection';
 import CardsSection from './components/CardsSection';
 import EventoSection from './components/EventoSection';

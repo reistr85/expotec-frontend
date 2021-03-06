@@ -16,9 +16,9 @@
                       <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav mr-auto text-center">
                             <li class="nav-item active">
-                            <a class="navbar-brand" href="#">
-                        <img src="@/assets/images/logo-expotec.svg" alt="" class="img-fluid">
-                      </a>
+                            <router-link class="navbar-brand" to="/">
+                              <img src="@/assets/images/logo-expotec.svg" alt="" class="img-fluid">
+                            </router-link>
                           </li>
                           <li class="nav-item ">
                             <a class="nav-link " href="#">Eventos
@@ -29,7 +29,7 @@
                             <a class="nav-link" href="#">Instituição</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Notícias</a>
+                            <router-link class="nav-link" to="/noticias">Notícias</router-link>
                           </li>
                         </ul> 
                       </div>
@@ -55,7 +55,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import '../style.scss';
+@import '@/pages/Site/Home/style.scss';
 
 header{
     padding: 20px 0px;
