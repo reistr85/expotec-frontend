@@ -1,0 +1,54 @@
+$background: #e5e5e5;
+$background-contents: #fdfdfd;
+
+$shadow5px: 5px 5px 5px rgba(0,0,0,0.1);
+
+@mixin bold-size{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card{
+    border-radius: 10px;
+  
+}
+
+.col-md-8{
+
+    h3{
+        color:#2A327D;
+    }
+
+    .date-event{
+        color:black;
+        font-weight: bold;
+        span{
+            color:#FCAE37;
+        }
+    }
+
+    .card-body{
+        padding: 40px;
+
+        h6{
+            color:black;
+            font-weight: bold;
+        }
+    }
+
+}
+.col-md-3{
+    margin-left: -100px;
+
+    .card-inscricao{
+        background-color: #FCAE37;
+        margin-top: 140px;
+        padding: 15px;
+
+        .roxo{
+            background-color:#2A327D;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}

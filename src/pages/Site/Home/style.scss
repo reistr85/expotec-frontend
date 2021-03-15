@@ -1,0 +1,33 @@
+$roxo-color:#2A327D;
+$verde-color:#00C689;
+$amarelo-color:#FEA31B;
+$rosa-color:#FB6158;
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Hellix;
+    background-color: white;
+
+    h2{
+        color:black;
+        font-weight: bold;
+    }
+    
+    section{
+        padding-top: 100px;
+        padding-bottom: 25  px;
+    }
+
+    p{
+        font-size:18px;
+    }
+}
+
+.btn-primary{
+    background-color:$roxo-color;
+}
+.btn-primary:hover{
+    background-color:$roxo-color;
+    opacity: 0.9;
+}
