@@ -1,7 +1,7 @@
 <template>
   <div class="body">
         <div class="photo">
-            <img class="expotec_logo" src="@/assets/images/logo-expotec.svg" alt="Logo da expotec">
+            <h1 class="expotec_title">Expotec</h1>
             <img class="photo_login" src="@/assets/images/photo-register.png" alt="Foto de login">
         </div>
 
@@ -16,7 +16,7 @@
                 <div class="radio_flex">
                   <input v-on:click="toggleButtonServer()" class="radio_form" id="server" type="button" name="profile" value="Servidor">
                   <input v-on:click="toggleButtonStudent()" class="radio_form" id="student" type="button" name="profile" value="Estudante">
-                  <input v-on:click="toggleButtonExternal()" class="radio_form" id="external" type="button" name="profile" value="Externo">
+                  <input v-on:click="toggleButtonExternal()" class="radio_form" id="external" type="button" name="profile" value="externo">
                 </div>
                 <label class="label_form" for="email_uncadastred">E-mail</label>
                 <input class="input_form"  type="email" id="email_uncadastred" placeholder="nome@email.com.br">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn form_register_button">Cadastrar</button>
+                <button type="submit" class="btn form_login_button">Cadastrar</button>
             </form>
         </div>
     </div>
@@ -84,9 +84,9 @@ export default {
       background-color: #00C689;
       border-radius: 0 50px 50px 0;
   }
-  .expotec_logo{
-      margin: 1em 0 1em 4em;
-        width: 150px;
+  .expotec_title{
+      margin: .3em 0 1em 2em;
+      color: #FFF;
   }
   .photo_login{
       padding: 1em 2em 7em 7em;
@@ -97,7 +97,7 @@ export default {
       width: 50%;
       position: fixed;
       right: 0%;
-      top: 7vh;
+      top: 13%;
 
       display: flex;
       flex-direction: column;
@@ -114,20 +114,19 @@ export default {
       text-align: center;
   }
   .label_form{
-      font-size: 1.2em;
       display: block;
       text-align: left;
-      margin-bottom: .2em;
+      margin-bottom: 0;
   }
   .radio_flex{
     display: flex;
     justify-content: space-between;
   }
   .radio_form{
-    width: auto;
+    width: 28%;
     padding: .3em;
     background-color: #FFF;
-    margin: 0 0 1em 0;
+    margin: .5em 0 1em 0;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 8px;
   }
@@ -138,7 +137,7 @@ export default {
   .input_form{
       width: 100%;
       font-size: .9em;
-      padding: .5em;
+      padding: .3em;
       border: .5px solid rgba(0, 0, 0, 0.3);
       border-radius: 3px;
       margin-bottom: 1.5em;
@@ -156,13 +155,11 @@ export default {
   #eye{
       width: 18px;
   }
-  .form_register_button{
+  .form_login_button{
       margin-top: 1.5em;
-      padding: .4em;
+      padding: .2em;
       width: 100%;
       background-color: #00C689;
       color: #FFF;
-      text-transform: capitalize;
-      font-size: 1em;
   }
 </style>

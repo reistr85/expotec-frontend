@@ -51,7 +51,7 @@
                                     <a class="nav-link" href="#">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Notícias</a>
+                                    <router-link class="nav-link" to="/noticias">Notícias</router-link>
                                 </li>
                                 </ul>   
                             

@@ -17,13 +17,11 @@
                         <ul class="navbar-nav mr-auto text-center">
                             <li class="nav-item active">
                             <router-link class="navbar-brand" to="/">
-                              <img src="@/assets/images/logo-expotec.svg" alt="" class="img-fluid">
+                              <img class="logo_expotec img-fluid" src="@/assets/images/logo-expotec.svg" alt="Logo da Expotec">
                             </router-link>
                           </li>
                           <li class="nav-item ">
-                            <a class="nav-link " href="#">Eventos
-                              <span class="sr-only">(current)</span>
-                            </a>
+                             <router-link class="nav-link" to="/eventos">Eventos</router-link>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Instituição</a>
@@ -35,12 +33,21 @@
                       </div>
               </div>
               <div class="col-md-4">
+<<<<<<< HEAD
                         <span class="navbar-text white-text">
                       <button type="button" class="btn btn-light "><router-link to="/login">Entrar</router-link></button>
                       </span>
                       <span class="navbar-text white-text">
                                 <button type="button" class="btn btn-primary "><router-link to="/cadastrar">Cadastro</router-link></button>
                       </span> 
+=======
+                  <span class="navbar-text white-text">
+                      <button type="button" class="btn btn-light "><router-link to="/login">Entrar</router-link></button>
+                  </span>
+                  <span class="navbar-text white-text">
+                      <button type="button" class="btn btn-primary "><router-link to="/cadastrar">Cadastro</router-link></button>
+                  </span> 
+>>>>>>> página eventos
               </div>
             </div>
                
@@ -57,6 +64,13 @@ export default {
 <style lang="scss" scoped>
 @import '@/pages/Site/Home/style.scss';
 
+<<<<<<< HEAD
+=======
+.logo_expotec{
+  width: 6.5em;
+}
+
+>>>>>>> página eventos
 header{
     padding: 20px 0px;
 

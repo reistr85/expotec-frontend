@@ -7,6 +7,7 @@ import LoginComponent from './pages/Site/Auth/LoginComponent.vue';
 import ForgotPasswordComponent from './pages/Site/Auth/ForgotPasswordComponent.vue';
 import RegisterComponent from './pages/Site/Auth/RegisterComponent.vue';
 import News from './pages/Site/News/News.vue';
+import Eventos from './pages/Site/Eventos/Eventos.vue';
 
 
 Vue.config.productionTip = false
@@ -17,7 +18,8 @@ const routes = [
   { path: '/login', component: LoginComponent },
   { path: '/cadastrar', component: RegisterComponent },
   { path: '/recuperarSenha', component: ForgotPasswordComponent },
-  { path: '/noticias', component: News }
+  { path: '/noticias', component: News },
+  { path: '/eventos', component: Eventos }
 ]
 
 const router = new VueRouter({

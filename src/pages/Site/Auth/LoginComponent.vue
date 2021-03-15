@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="photo">
-            <img class="expotec_logo" src="@/assets/images/logo-expotec.svg" alt="Logo da expotec">
+            <h1 class="expotec_title">Expotec</h1>
             <img class="photo_login" src="@/assets/images/photo-login.png" alt="Foto de login">
         </div>
 
@@ -61,9 +61,9 @@ export default {
         background-color: #2A327D;
         border-radius: 0 50px 50px 0;
     }
-    .expotec_logo{
-        margin: 1em 0 1em 4em;
-        width: 150px;
+    .expotec_title{
+        margin: .3em 0 1em 2em;
+        color: #FFF;
     }
     .photo_login{
         padding: 1em 2em 7em 7em;
@@ -94,19 +94,22 @@ export default {
         text-align: center;
     }
     .label_form{
-        font-size: 1.2em;
         display: block;
         text-align: left;
-        margin-bottom: .2em;
-    }
-    .input_form, .input_form_eye{
-        font-size: .9em;
-        padding: .5em;
-        border: .5px solid rgba(0, 0, 0, 0.3);
-        border-radius: 3px;
+        margin-bottom: 0;
     }
     .input_form{
         width: 100%;
+        font-size: .9em;
+        padding: .3em;
+        border: .5px solid rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+    }
+    .input_form_eye{
+        font-size: .9em;
+        padding: .3em;
+        border: .5px solid rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
     }
     .input-group-text{
         cursor: pointer;
@@ -129,11 +132,9 @@ export default {
     }
     .form_login_button{
         margin-top: 1em;
-        padding: .4em;
+        padding: .2em;
         width: 100%;
         background-color: #2A327D;
         color: #FFF;
-        text-transform: capitalize;
-        font-size: 1em;
     }
 </style>
