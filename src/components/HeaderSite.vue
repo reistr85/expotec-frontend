@@ -1,9 +1,9 @@
 <template>
     
   <!-- Start your project here-->  
-  <header class="text-center">
+    <header class="text-center" id="header">
 
-          <nav class="container navbar navbar-expand-lg  ">
+          <nav class="container navbar navbar-expand-lg">
             <div class="container row">
               <div class="col-md-8">
                     <a class="navbar-brand" href="#">
@@ -16,29 +16,40 @@
                       <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav mr-auto text-center">
                             <li class="nav-item active">
-                            <router-link class="navbar-brand" to="/">
-                              <img class="logo_expotec img-fluid" src="@/assets/images/logo-expotec.svg" alt="Logo da Expotec">
-                            </router-link>
+                            <a class="navbar-brand" href="#">
+                        <img src="../assets/images/logo-expotec.svg" alt="" class="logo_expotec img-fluid">
+                      </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Notícias</a>
                           </li>
                           <li class="nav-item ">
-                             <router-link class="nav-link" to="/eventos">Eventos</router-link>
+                            <a class="nav-link " href="#eventos">Eventos
+                              <span class="sr-only">(current)</span>
+                            </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Instituição</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                           </li>
                           <li class="nav-item">
-                            <router-link class="nav-link" to="/noticias">Notícias</router-link>
+                            <a class="nav-link" href="#certificados">Certificados</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#parceiros">Parceiros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
                           </li>
                         </ul> 
                       </div>
               </div>
               <div class="col-md-4">
-                  <span class="navbar-text white-text">
-                      <button type="button" class="btn btn-light "><router-link to="/login">Entrar</router-link></button>
-                  </span>
-                  <span class="navbar-text white-text">
-                      <button type="button" class="btn btn-primary "><router-link to="/cadastrar">Cadastro</router-link></button>
-                  </span> 
+                        <span class="navbar-text white-text">
+                      <button type="button" class="btn btn-light ">Entrar</button>
+                      </span>
+                      <span class="navbar-text white-text">
+                                <button type="button" class="btn btn-primary ">Cadastro</button>
+                      </span> 
               </div>
             </div>
                
@@ -95,4 +106,3 @@ header{
 
 }
 </style>
-
