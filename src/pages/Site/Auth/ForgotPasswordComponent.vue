@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="photo">
-            <h1 class="expotec_title">Expotec</h1>
+            <img class="expotec_logo" src="@/assets/images/logo-expotec.svg" alt="Logo da expotec">
             <img class="photo_login" src="@/assets/images/photo-forgotPassword.png" alt="Foto da tela de recuperar acesso">
         </div>
 
@@ -43,9 +43,9 @@ export default {
         background-color: #FEA31B;
         border-radius: 0 50px 50px 0;
     }
-    .expotec_title{
-        margin: .3em 0 1em 2em;
-        color: #FFF;
+    .expotec_logo{
+        margin: 1em 0 1em 4em;
+        width: 150px;
     }
     .photo_login{
         padding: 1em 2em 7em 7em;
@@ -56,7 +56,7 @@ export default {
         width: 50%;
         position: fixed;
         right: 0%;
-        top: 30%;
+        top: 25%;
 
         display: flex;
         flex-direction: column;
@@ -78,14 +78,15 @@ export default {
         text-align: center;
     }
     .label_form{
+        font-size: 1.2em;
         display: block;
         text-align: left;
-        margin-bottom: 0;
+        margin-bottom: .2em;
     }
     .input_form{
         width: 100%;
         font-size: .9em;
-        padding: .3em;
+        padding: .5em;
         border: .5px solid rgba(0, 0, 0, 0.3);
         border-radius: 3px;
     }
@@ -95,9 +96,11 @@ export default {
 
     .form_forgot_password{
         margin-top: 1em;
-        padding: .2em;
+        padding: .4em;
         width: 100%;
         background-color: #FEA31B;
         color: #FFF;
+        text-transform: capitalize;
+        font-size: 1em;
     }
 </style>
