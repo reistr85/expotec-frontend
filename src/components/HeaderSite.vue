@@ -33,21 +33,12 @@
                       </div>
               </div>
               <div class="col-md-4">
-<<<<<<< HEAD
-                        <span class="navbar-text white-text">
-                      <button type="button" class="btn btn-light "><router-link to="/login">Entrar</router-link></button>
-                      </span>
-                      <span class="navbar-text white-text">
-                                <button type="button" class="btn btn-primary "><router-link to="/cadastrar">Cadastro</router-link></button>
-                      </span> 
-=======
                   <span class="navbar-text white-text">
                       <button type="button" class="btn btn-light "><router-link to="/login">Entrar</router-link></button>
                   </span>
                   <span class="navbar-text white-text">
                       <button type="button" class="btn btn-primary "><router-link to="/cadastrar">Cadastro</router-link></button>
                   </span> 
->>>>>>> página eventos
               </div>
             </div>
                
@@ -64,13 +55,10 @@ export default {
 <style lang="scss" scoped>
 @import '@/pages/Site/Home/style.scss';
 
-<<<<<<< HEAD
-=======
 .logo_expotec{
   width: 6.5em;
 }
 
->>>>>>> página eventos
 header{
     padding: 20px 0px;
 
