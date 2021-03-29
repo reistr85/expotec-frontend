@@ -4,6 +4,7 @@
 		<MainSection />
 		<Noticias />
 		<EventoSection />
+		<SobreSection/>
 		<Certificados />
 		<Parceiros />
 		<Contato />
@@ -14,7 +15,7 @@
 <script>
 import HeaderSite from '@/components/HeaderSite';
 import MainSection from './components/MainSection';
-//import CardsSection from './components/CardsSection';
+import SobreSection from './components/SobreSection';
 import EventoSection from './components/EventoSection';
 import Certificados from './components/Certificados';
 import Noticias from './components/Noticias';
@@ -28,7 +29,7 @@ export default {
 	components: {
 		HeaderSite,
 		MainSection,
-//		CardsSection,
+		SobreSection,
 		EventoSection,
 		Certificados,
 		Noticias,

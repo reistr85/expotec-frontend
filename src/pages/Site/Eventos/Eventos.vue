@@ -6,17 +6,21 @@
 
             <div class="row">
                 <div class="col-md-8">
-                    <div class="card">
+                    <div class="card mb-5">
                         <img
-                            src="@/assets/images/bot.jpg"
+                            src="@/assets/images/workshopPesquisaInovacao.png"
                             class="card-img-top"
                             alt="..."
                         />
                         <div class="card-body">
                              <h4 class="date-event">Data: <span>20/08</span></h4>
                             <h6>Hora: 18:00-21:00</h6>
-                            <h3 class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. Asperiores, iste! Repellat, adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br><br> Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. Asperiores, iste! Repellat, adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. <br><br> Asperiores, iste! Repellat, adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. Asperiores, iste! Repellat, adipisci!</p>  
+                            <h3 class="pt-4">DIPEQ promove "Workshop de Pesquisa e Inovação</h3>
+                            <p >No próximo dia 05 de março, a partir das 8h30, a Diretoria de Pesquisa (Dipeq) do Campus Natal-Central do IFRN, vai promover o “Workshop de Pesquisa e Inovação”. A iniciativa visa divulgar os resultados parciais dos projetos de pesquisa, promover o compartilhamento de experiências na gestão dos projetos de pesquisa e integrar os grupos de pesquisa do campus.
+
+Na programação, grupos diversos apresentam suas pesquisas tais como: "Estimação da Radiação Solar por meio da Energia Elétrica produzida por módulos fotovoltaicos" , "SMART PROTECTION 2.0: Sistema Avançado de Proteção contra Ataques de Negação de Serviços", "Accesscontrol IOT: Controle de acesso físico utilizando internet das coisas", "Utilização do ambiente virtual de aprendizagem (AVA) Moodle como ferramenta de apoio ao ensino presencial", dentre outras.
+
+ Um total de 25 projetos de 11 grupos de pesquisa serão apresentados, dentro de 4 áreas de pesquisa. Confira a programação completa que acontecerá nos turnos matutino e vespertino.</p>  
                         </div>
                     </div>
 
@@ -24,7 +28,7 @@
                 <div class="col-md-3">
                     <div class="card text-center text-white card-inscricao">
                         <div class="card-body">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                            <h3>DIPEQ promove "Workshop de Pesquisa e Inovação</h3>
                             <button class="btn roxo">FAZER INSCRIÇÂO</button>
                         </div>
                     </div>

@@ -9,21 +9,21 @@
                     <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/ParceiroCrea.png" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/ParceiroEscolaDoGoverno.jpg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div> 
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/ParceiroIncra.png" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
@@ -33,21 +33,21 @@
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/ParceiroSethas.jpg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/ParceiroTribunalDeJustica.png" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div> 
                      <div class="col-md-4">
                       <div class="card">
                         <div class="card-body">
-                            <img src="@/assets/images/direx.svg" alt="" class="img-fluid">
+                            <img src="@/assets/images/ParceiroTrt.jpg" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div> </div>              
@@ -68,5 +68,9 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style.scss';
+img{
+    width:312px;
+    height: 175px;
+}
 </style>
 

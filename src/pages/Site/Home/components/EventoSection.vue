@@ -10,17 +10,16 @@
           <div class="col-md-4">
                 <div class="card">
                 <img
-                    src="@/assets/images/Imagem1.jpg"
+                    src="@/assets/images/workshopPesquisaInovacao.png"
                     class="card-img-top"
                     alt="..."
                 />
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">DIPEQ promove "Workshop de Pesquisa e Inovação</h5>
                     <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
+                    No próximo dia 05 de março, a partir das 8h30, a Diretoria de Pesquisa (Dipeq) do Campus Natal-Central do IFRN, vai promover o “Workshop de Pesquisa e Inovação”.
                     </p>
-                    <a href="#!" class="btn btn-success">Button</a>
+                    <a href="/#/eventos" class="btn btn-success">Saber Mais</a>
                 </div>
                 </div>
           </div>
