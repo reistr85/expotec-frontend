@@ -19,7 +19,7 @@
                     <p class="card-text">
                     No próximo dia 05 de março, a partir das 8h30, a Diretoria de Pesquisa (Dipeq) do Campus Natal-Central do IFRN, vai promover o “Workshop de Pesquisa e Inovação”.
                     </p>
-                    <a href="/#/eventos" class="btn btn-success">Saber Mais</a>
+                    <a href="/#/eventos" class="btn btn-success">Saiba mais</a>
                 </div>
                 </div>
           </div>
@@ -28,27 +28,27 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="@/assets/images/Imagem1.jpg"
+                            src="@/assets/images/expotec09.jpg"
                             class="card-img-top"
-                            alt="..."
+                            alt="Expotec 2009"
                         />
                     </div>
                 </div>
                  <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="@/assets/images/Imagem1.jpg"
+                            src="@/assets/images/expotec10.jpg"
                             class="card-img-top"
-                            alt="..."
+                            alt="Expotec 2010"
                         />
                     </div>
                 </div>
                  <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="@/assets/images/Imagem1.jpg"
+                            src="@/assets/images/expotec11.jpg"
                             class="card-img-top"
-                            alt="..."
+                            alt="Expotec 2011"
                         />
                     </div>
                 </div>
@@ -57,25 +57,25 @@
                 <div class="col-md-4">
                     <div class="card">
                         <img
-                            src="@/assets/images/Imagem1.jpg"
+                            src="@/assets/images/expotec12.jpg"
                             class="card-img-top"
-                            alt="..."
+                            alt="Expotec 2012"
                         />
                     </div>
                 </div><div class="col-md-4">
                     <div class="card">
                         <img
-                            src="@/assets/images/Imagem1.jpg"
+                            src="@/assets/images/expotec13.jpg"
                             class="card-img-top"
-                            alt="..."
+                            alt="Expotec 2013"
                         />
                     </div>
                 </div><div class="col-md-4">
                     <div class="card">
                         <img
-                            src="@/assets/images/Imagem1.jpg"
+                            src="@/assets/images/expotec14.jpg"
                             class="card-img-top"
-                            alt="..."
+                            alt="Expotec 2014"
                         />
                     </div>
                 </div>
@@ -116,6 +116,9 @@ export default {
 
     .card-title{
         color:$verde-color;
+    }
+    img{
+        height: 150px;
     }
 }
 </style>

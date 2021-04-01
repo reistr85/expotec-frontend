@@ -13,8 +13,8 @@
                             alt="..."
                         />
                         <div class="card-body">
-                             <h4 class="date-event">Data: <span>20/08</span></h4>
-                            <h6>Hora: 18:00-21:00</h6>
+                             <h4 class="date-event">Data: <span>05/03</span></h4>
+                            <h6>Hora: 08:30h</h6>
                             <h3 class="pt-4">DIPEQ promove "Workshop de Pesquisa e Inovação</h3>
                             <p >No próximo dia 05 de março, a partir das 8h30, a Diretoria de Pesquisa (Dipeq) do Campus Natal-Central do IFRN, vai promover o “Workshop de Pesquisa e Inovação”. A iniciativa visa divulgar os resultados parciais dos projetos de pesquisa, promover o compartilhamento de experiências na gestão dos projetos de pesquisa e integrar os grupos de pesquisa do campus.
 

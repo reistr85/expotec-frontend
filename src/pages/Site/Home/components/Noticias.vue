@@ -32,48 +32,50 @@
                       <div class="col-md-3">
                           <div class="card">
                               <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
+                                  <h5 class="card-title">PREMIAÇÃO</h5>
                                   <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
+                                  Estudante é medalha de bronze em Olimpíada Brasileira de Robótica.
+Evento é considerado o maior de robótica da América Latina e acontece
                                   </p>
-                                  <button type="button" class="btn btn-warning">Learn more</button>
+                                  <button type="button" class="btn btn-warning">Saiba mais</button>
                               </div>
                               </div>
                       </div>
                       <div class="col-md-3">
                           <div class="card">
                               <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
+                                  <h5 class="card-title">SAÚDE</h5>
                                   <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
+                                  IFRN realiza Mostra de Ações da Saúde.
+Evento acontece nos dias 29 e 30 de março,
+para profissionais de saúde e assistência social.
                                   </p>
-                                  <button type="button" class="btn btn-warning">Learn more</button>
+                                  <button type="button" class="btn btn-warning">Saiba mais</button>
                               </div>
                               </div>
                       </div>
                       <div class="col-md-3">
                           <div class="card">
                               <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
+                                  <h5 class="card-title">EXTENSÃO</h5>
                                   <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
+                                  Caminhos cruzados: projeto leva alunos da rede pública municipal
+ao CNAT Iniciativa fomenta criticidade, novos horizontes
+e parceria com
                                   </p>
-                                  <button type="button" class="btn btn-warning">Learn more</button>
+                                  <button type="button" class="btn btn-warning">Saiba mais</button>
                               </div>
                               </div>
                       </div>
                       <div class="col-md-3">
                           <div class="card">
                               <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
+                                  <h5 class="card-title">INTERINSTITUCIONAL</h5>
                                   <p class="card-text">
-                                  Some quick example text to build on the card title and make up the bulk of the
-                                  card's content.
-                                  </p>
-                                  <button type="button" class="btn btn-warning">Learn more</button>
+                                  IFRN é parceiro em evento sobre Eletrônica de Potência
+Congresso Nacional pretende reunir comunidade latino-americana
+interessada na           </p>
+                                  <button type="button" class="btn btn-warning">Saiba mais</button>
                               </div>
                               </div>
                       </div>
@@ -128,6 +130,10 @@ export default {
 
     .carousel-inner{
         padding: 80px 30px;
+    }
+
+    .card-body{
+      height: 300px;
     }
 }
 

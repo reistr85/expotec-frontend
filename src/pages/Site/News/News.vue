@@ -4,13 +4,15 @@
       
         <div class="content">
             <title-path class="title_page" page="Notícias" color="#00C689"/>
-            <span class="update">24/02/2021 21h37 - Atualizado há 2 minutos</span>
+            <span class="update">23/11/2021 12h às 20h - Atualizado há 2 minutos</span>
             <div class="colums_content">
                 <section class="main_content">
-                    <img class="main_content_img" src="@/assets/images/bot.jpg" alt="Bot">
+                    <img class="main_content_img" src="@/assets/images/hyper-festival.jpg" alt="hyper-festival">
                     <div class="main_content_text">
-                        <h3 class="main_content_text__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                        <p class="main_content_text__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. Asperiores, iste! Repellat, adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br><br> Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. Asperiores, iste! Repellat, adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. <br><br> Asperiores, iste! Repellat, adipisci!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsum similique cupiditate saepe minus sapiente nesciunt, rem repudiandae possimus expedita dolorum laboriosam dolor necessitatibus provident laborum. Asperiores, iste! Repellat, adipisci!</p>
+                        <h3 class="main_content_text__title">Hyper Festival retorna a SP trazendo o que há de mais atual em realidade aumentada e virtual</h3>
+                        <p class="main_content_text__paragraph">No dia 23 de novembro, a Digital House, em São Paulo, recebe mais uma edição do Hyper Festival. O evento é pioneiro no Brasil ao falar exclusivamente sobre conteúdos imersivos, como realidade virtual e realidade aumentada.
+
+Marcado para ocorrer das 12h às 20h, o festival trará uma gama de experiências. Os participantes poderão se sentir parte de filmes e animações, além de conferir palestras e painéis dedicados ao mercado e produção de conteúdos imersivos.</p>
                     </div>
                 </section>
 
