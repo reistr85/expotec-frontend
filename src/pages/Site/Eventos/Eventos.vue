@@ -1,6 +1,6 @@
 <template>
   <div>
-      <header-app/>
+      <header-minificado/>
         <div class="container">
             <title-path class="title_page" page="Eventos" color="#FBA31B"/>
 
@@ -39,11 +39,11 @@ Na programação, grupos diversos apresentam suas pesquisas tais como: "Estimaç
 </template>
 
 <script>
-import HeaderSite from '@/components/HeaderSite.vue';
+import HeaderMinificado from '@/components/HeaderMinificado.vue';
 import TitleWithPath from '@/components/TitleWithPath.vue';
 export default {
     components: {
-        'header-app': HeaderSite,
+        'header-minificado': HeaderMinificado,
         'title-path': TitleWithPath
     }
 }

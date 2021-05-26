@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="certificados-section">
           <div class="container">
           <div class="row text-center">
                 <h2 class=" col-md-12">Certificados</h2>

@@ -1,6 +1,6 @@
 <template>
   <div>
-      <header-app/>
+      <header-minificado/>
       
         <div class="content">
             <title-path class="title_page" page="Notícias" color="#00C689"/>
@@ -58,11 +58,11 @@ Marcado para ocorrer das 12h às 20h, o festival trará uma gama de experiência
 </template>
 
 <script>
-import HeaderSite from '@/components/HeaderSite.vue';
+import HeaderMinificado from '@/components/HeaderMinificado.vue';
 import TitleWithPath from '@/components/TitleWithPath.vue';
 export default {
     components: {
-        'header-app': HeaderSite,
+        'header-minificado': HeaderMinificado,
         'title-path': TitleWithPath
     }
 }
