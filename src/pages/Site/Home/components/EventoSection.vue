@@ -1,5 +1,5 @@
 <template>
-      <section id="events">
+      <section  id="eventos-section">
           <div class="container">
           <div class="row text-center">
                 <h2 class=" col-md-12">Eventos</h2>

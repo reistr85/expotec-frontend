@@ -30,18 +30,6 @@
               <li class="nav-item">
                 <router-link class="nav-link" to="/eventos">Eventos</router-link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sobre-section">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#certificados-section">Certificados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#parceiros-section">Parceiros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contato-section">Contato</a>
-              </li>
             </ul>
           </div>
         </div>
