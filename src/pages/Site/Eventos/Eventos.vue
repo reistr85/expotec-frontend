@@ -1,7 +1,7 @@
 <template>
-  <div>
-      <header-minificado/>
-        <div class="container">
+    <div>
+        <div class="container geral">
+            <header-minificado/>
             <title-path class="title_page" page="Eventos" color="#FBA31B"/>
 
             <div class="row">
@@ -29,22 +29,59 @@ Na programação, grupos diversos apresentam suas pesquisas tais como: "Estimaç
                     <div class="card text-center text-white card-inscricao">
                         <div class="card-body">
                             <h3>DIPEQ promove "Workshop de Pesquisa e Inovação</h3>
-                            <button class="btn roxo">FAZER INSCRIÇÂO</button>
+                            <button v-on:click="subscribeModal()" class="btn roxo">FAZER INSCRIÇÂO</button>
                         </div>
                     </div>
                 </div>
             </div>
-      </div>
-  </div>
+        </div>
+        <register-event class="modal"></register-event>
+        <confirm-email class="confirm_email"></confirm-email>
+    </div>
 </template>
 
 <script>
 import HeaderMinificado from '@/components/HeaderMinificado.vue';
 import TitleWithPath from '@/components/TitleWithPath.vue';
+import RegisterInEvent from './registerInEvent.vue'
+import ConfirmEmail from './confirmEmail.vue'
+
 export default {
     components: {
         'header-minificado': HeaderMinificado,
-        'title-path': TitleWithPath
+        'title-path': TitleWithPath,
+        'register-event': RegisterInEvent,
+        'confirm-email': ConfirmEmail
+    },
+    methods: {
+        subscribeModal(){
+            const modal = document.querySelector(".modal")
+            const modalEmail = document.querySelector('.confirm_email')
+            const div = document.querySelector('.geral')
+
+
+            div.style.opacity = '0.2';
+            modal.style.display = 'block';
+
+            document.querySelector('.cancel_register').addEventListener('click', () => {
+                modal.style.display = 'none';
+                div.style.opacity = '1';
+            })
+
+            document.querySelectorAll('.signup').forEach(button => {
+                button.addEventListener('click', () => {
+                    modal.style.display = 'none';
+                    modalEmail.style.display = 'block';
+                
+                })
+            });
+
+            document.querySelector('.cancel_email').addEventListener('click', () => {
+                modalEmail.style.display = 'none';
+                modal.style.display = 'block';
+            })
+            
+        }
     }
 }
 </script>
