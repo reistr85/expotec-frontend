@@ -1,0 +1,36 @@
+$background: #e5e5e5;
+$background-contents: #fdfdfd;
+
+$shadow5px: 5px 5px 5px rgba(0,0,0,0.1);
+
+.main{
+    padding-bottom: 100px;
+}
+.boas-vindas{
+    color:#2A327D;
+    font-weight: bold;
+}
+.evento-text{
+    color:#2A327D;
+    font-weight: bold;
+    font-size: 20px;
+}
+.table-active{
+    background-color: #F6F2F1;
+    color:#2A327D;
+    font-weight: bold;
+    font-size: 16px;
+}
+.emitir-certificado-text{
+    color:black;
+    font-weight: bold;
+}
+
+.button-certified{
+    border: none;
+}
+
+@mixin bold-size{
+    font-size: 20px;
+    font-weight: bolder;
+}
