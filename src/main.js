@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
 
 import HomeComponent from './pages/Site/Home/HomeComponent';
 import LoginComponent from './pages/Site/Auth/LoginComponent.vue';
@@ -13,6 +14,7 @@ import Certificado from './pages/Site/Certificado/Certificados.vue';
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
+Vue.use(VueResource)
 
 const routes = [
   { path: '/', component: HomeComponent },
