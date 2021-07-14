@@ -7,7 +7,7 @@
       <span class="update" v-if="noticia">23/11/2021 12h às 20h - Atualizado há 2 minutos</span>
       <div class="colums_content">
         <section class="main_content">
-          <img
+          <img v-if="noticia"
             class="main_content_img"
             :src="'https://expotec.api.mgetech.com.br/images/news/'+ noticia.image"
             alt="hyper-festival"
@@ -77,13 +77,14 @@
 import HeaderMinificado from "@/components/HeaderMinificado.vue";
 import TitleWithPath from "@/components/TitleWithPath.vue";
 
-/*if (process.browser) {
-  var noticia_id = location.search.slice(1).split("=")[-1]; 
-}*/
+if (process.browser) {
+  var noticia_id = parseInt(window.location.href.split('/')[5]);
+}
 
 export default {
   data() {
     return {
+      noticia_id,
       noticia: null,
       widget_noticias:[]
     };
@@ -97,7 +98,7 @@ export default {
       .get("https://expotec.api.mgetech.com.br/api/expotec/v1/news")
       .then(res => {
         res.body.forEach(element => {
-          if (element.id == 3) {
+          if (element.id == noticia_id) {
             this.noticia = element;
           }else{
             this.widget_noticias.push(element);

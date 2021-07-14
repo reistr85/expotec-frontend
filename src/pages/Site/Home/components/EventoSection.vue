@@ -27,11 +27,11 @@
             <div class="row"  >
                 <div class="col-md-4"  v-for="evento in eventos" :key="evento.id">
                     <div class="card"  >
-                        <img 
+                       <router-link :to="{name: 'eventos',params:{id: evento.id}}" > <img 
                             :src="'https://expotec.api.mgetech.com.br/images/events/'+ evento.image"
                             class="card-img-top"
                             alt="Expotec Evento"
-                        />
+                        /></router-link>
                     </div>
                 </div>
             </div>

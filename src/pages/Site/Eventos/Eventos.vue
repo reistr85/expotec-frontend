@@ -41,9 +41,14 @@ import TitleWithPath from '@/components/TitleWithPath.vue';
 import RegisterInEvent from './registerInEvent.vue'
 import ConfirmEmail from './confirmEmail.vue'
 
+if (process.browser) {
+  var evento_id = parseInt(window.location.href.split('/')[5]);
+}
+
 export default {
     data(){
         return{
+            evento_id,
             event:null
         }
     },
@@ -88,10 +93,10 @@ export default {
       .get("https://expotec.api.mgetech.com.br/api/expotec/v1/events")
       .then(res => {
         res.body.forEach(element => {
-          if (element.id == 9) {
+          if (element.id == evento_id) {
             this.event = element;
-            console.log(element);
           }
+          
         });
       });
   }

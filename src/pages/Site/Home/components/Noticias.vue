@@ -30,7 +30,7 @@
             <p class="card-text">
               {{i.title}}
             </p>
-            <button type="button" class="btn btn-warning"><router-link :to="'/noticia/'+ i.id" class="text-white">Saiba mais</router-link></button>
+            <router-link :to="{name: 'noticias',params:{id: i.id}}" class="text-white"><button type="button" class="btn btn-warning">Saiba mais</button></router-link>
           </div>
         </div>
       </div>

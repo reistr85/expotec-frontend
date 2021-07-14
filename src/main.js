@@ -21,8 +21,8 @@ const routes = [
   { path: '/login', component: LoginComponent },
   { path: '/cadastrar', component: RegisterComponent },
   { path: '/recuperarSenha', component: ForgotPasswordComponent },
-  { path: '/noticias', component: News },
-  { path: '/eventos', component: Eventos },
+  { path: '/noticias/:id', name:'noticias', component: News },
+  { path: '/eventos/:id', name:'eventos',component: Eventos },
   { path: '/imprimirCertificado', component: Certificado },
   { path: '/certificados', component: Certificado }
 ]

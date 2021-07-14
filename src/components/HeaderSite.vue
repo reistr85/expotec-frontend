@@ -25,7 +25,7 @@
                 </router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/noticias">Notícias</router-link>
+                <router-link class="nav-link" to="/noticias" >Notícias</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/eventos">Eventos</router-link>
