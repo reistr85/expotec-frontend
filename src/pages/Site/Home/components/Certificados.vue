@@ -10,12 +10,11 @@
                     <p>
                         Emita seus certificados de participação em eventos realizados na Expotec como participante, palestrante, apresentador ou organizador do evento com um simples clique!
                     </p><br>
-                    <button type="button" class="btn btn-primary">Acesse aqui</button>
+                    <button type="button" class="btn btn-primary"><router-link to="/certificados">Acesse aqui</router-link></button>
                 </div>
                 <div class="col-md-6">
                     <img src="@/assets/images/certificado.svg" alt="" srcset="" class="col-md-12 img-fluid">
                 </div>
-                
             </div>
           </div>
 
@@ -28,7 +27,7 @@ export default {
     
     components:{
         Divisor
-    }
+    }    
     
 }
 </script>

@@ -27,7 +27,7 @@
 
       <div class="col-md-2">
         <router-link class="navbar-brand" to="/">
-          <img src="@/assets/images/logo-expotec.svg" alt class="img-fluid" />
+          <img src="@/assets/images/logo-expotec.png" alt class="img-fluid" />
         </router-link>
       </div>
       <div class="col-md-4">

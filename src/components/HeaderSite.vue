@@ -21,7 +21,7 @@
             <ul class="navbar-nav mr-auto text-center">
               <li class="nav-item active">
                 <router-link class="navbar-brand" to="/">
-                  <img src="../assets/images/logo-expotec.svg" alt class="logo_expotec img-fluid" />
+                  <img src="../assets/images/logo-expotec.png" alt class="logo_expotec img-fluid" />
                 </router-link>
               </li>
               <li class="nav-item">

@@ -110,20 +110,23 @@
 <!-- Carousel wrapper -->
 
 
-
-
-
-
-
   </section>
 </template>
 <script>
 import Divisor from "@/components/Divisor/Divisor";
 
+// import axios from 'axios';
+
 export default {
+  data() {
+    return {
+      eventos: [],
+      filter: ''
+    }
+  },
   components: {
     Divisor
-  }
+  } 
 };
 </script>
 <style lang="scss" scoped>

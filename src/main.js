@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
 
 import HomeComponent from './pages/Site/Home/HomeComponent';
 import LoginComponent from './pages/Site/Auth/LoginComponent.vue';
@@ -8,10 +9,12 @@ import ForgotPasswordComponent from './pages/Site/Auth/ForgotPasswordComponent.v
 import RegisterComponent from './pages/Site/Auth/RegisterComponent.vue';
 import News from './pages/Site/News/News.vue';
 import Eventos from './pages/Site/Eventos/Eventos.vue';
+import Certificado from './pages/Site/Certificado/Certificados.vue';
 
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
+Vue.use(VueResource)
 
 const routes = [
   { path: '/', component: HomeComponent },
@@ -19,7 +22,9 @@ const routes = [
   { path: '/cadastrar', component: RegisterComponent },
   { path: '/recuperarSenha', component: ForgotPasswordComponent },
   { path: '/noticias', component: News },
-  { path: '/eventos', component: Eventos }
+  { path: '/eventos', component: Eventos },
+  { path: '/imprimirCertificado', component: Certificado },
+  { path: '/certificados', component: Certificado }
 ]
 
 const router = new VueRouter({
