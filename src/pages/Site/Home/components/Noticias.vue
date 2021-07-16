@@ -109,8 +109,6 @@
 </div>
 <!-- Carousel wrapper -->
 
-<h1 v-for="i in eventos" :key="i.id">{{ i.title }}</h1>
-
 
   </section>
 </template>
@@ -128,15 +126,7 @@ export default {
   },
   components: {
     Divisor
-  },
-
-  mounted() {
-    this.$http.get('https://expotec.api.mgetech.com.br/api/expotec/v1/news')
-      .then(res => {
-        console.log(res.body);  
-        this.eventos = res.body
-      })
-  }  
+  } 
 };
 </script>
 <style lang="scss" scoped>
