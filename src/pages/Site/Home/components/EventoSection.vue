@@ -24,59 +24,14 @@
                 </div>
           </div>
           <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img
-                            src="@/assets/images/expotec09.jpg"
+            <div class="row"  >
+                <div class="col-md-4"  v-for="evento in eventos" :key="evento.id">
+                    <div class="card"  >
+                       <router-link :to="{name: 'eventos',params:{id: evento.id}}" > <img 
+                            :src="'https://expotec.api.mgetech.com.br/images/events/'+ evento.image"
                             class="card-img-top"
-                            alt="Expotec 2009"
-                        />
-                    </div>
-                </div>
-                 <div class="col-md-4">
-                    <div class="card">
-                        <img
-                            src="@/assets/images/expotec10.jpg"
-                            class="card-img-top"
-                            alt="Expotec 2010"
-                        />
-                    </div>
-                </div>
-                 <div class="col-md-4">
-                    <div class="card">
-                        <img
-                            src="@/assets/images/expotec11.jpg"
-                            class="card-img-top"
-                            alt="Expotec 2011"
-                        />
-                    </div>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img
-                            src="@/assets/images/expotec12.jpg"
-                            class="card-img-top"
-                            alt="Expotec 2012"
-                        />
-                    </div>
-                </div><div class="col-md-4">
-                    <div class="card">
-                        <img
-                            src="@/assets/images/expotec13.jpg"
-                            class="card-img-top"
-                            alt="Expotec 2013"
-                        />
-                    </div>
-                </div><div class="col-md-4">
-                    <div class="card">
-                        <img
-                            src="@/assets/images/expotec14.jpg"
-                            class="card-img-top"
-                            alt="Expotec 2014"
-                        />
+                            alt="Expotec Evento"
+                        /></router-link>
                     </div>
                 </div>
             </div>
@@ -92,12 +47,24 @@
 import Divisor from '@/components/Divisor/Divisor';
 
 export default {
-    
+    data(){
+        return{
+            eventos:[]
+        }
+    },
     components:{
         Divisor
-    }
+    },
+
+    mounted() {
+    this.$http.get('https://expotec.api.mgetech.com.br/api/expotec/v1/events')
+      .then(res => {
+        console.log(res.body);  
+        this.eventos = res.body
+      })
+  } 
     
-}
+};
 </script>
 <style lang="scss" scoped>
 // importando estilo principal

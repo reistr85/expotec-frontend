@@ -20,22 +20,22 @@
   <!-- Inner -->
   <div class="carousel-inner">
     <!-- Single item -->
-    <div class="carousel-item active">
+    <div class="carousel-item active" >
       <div class="container">
-    <div class="row text-center col-md-12">
-      <div class="col-md-3">
+    <div class="row text-center col-md-12" >
+      <div class="col-md-3" v-for="i in noticias" :key="i.id">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">PREMIAÇÃO</h5>
             <p class="card-text">
-              Estudante é medalha de bronze em Olimpíada Brasileira de Robótica.
-              Evento é considerado o maior de robótica da
+              {{i.title}}
             </p>
-            <button type="button" class="btn btn-warning">Saiba mais</button>
+            <router-link :to="{name: 'noticias',params:{id: i.id}}" class="text-white"><button type="button" class="btn btn-warning">Saiba mais</button></router-link>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+    </div>
+      <!--<div class="col-md-3">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">SAÚDE</h5>
@@ -71,7 +71,7 @@
             <button type="button" class="btn btn-warning">Saiba mais</button>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
     </div>
     </div>
@@ -83,8 +83,8 @@
     
     </div>
     </div>
-    </div>-->
-  </div>
+    </div>
+  </div>-->
   <!-- Inner -->
 
   <!-- Controls -->
@@ -109,6 +109,8 @@
 </div>
 <!-- Carousel wrapper -->
 
+<!--<h1 v-for="i in eventos" :key="i.id">{{ i.description }}</h1>-->
+
 
   </section>
 </template>
@@ -120,13 +122,21 @@ import Divisor from "@/components/Divisor/Divisor";
 export default {
   data() {
     return {
-      eventos: [],
+      noticias: [],
       filter: ''
     }
   },
   components: {
     Divisor
-  } 
+  },
+
+  mounted() {
+    this.$http.get('https://expotec.api.mgetech.com.br/api/expotec/v1/news')
+      .then(res => {
+        console.log(res.body);  
+        this.noticias = res.body
+      })
+  }  
 };
 </script>
 <style lang="scss" scoped>
